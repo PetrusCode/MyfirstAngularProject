@@ -1,9 +1,9 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app.component';
-import { ContadorModule } from './contador/contador.module';
-import { HeroesModule } from './heroes/heroes.module';
-
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { AppComponent } from "./app.component";
+import { ContadorModule } from "./contador/contador.module";
+import { DragonBallZModule } from "./dragon-ball-z/dragon-ball-z.module";
+import { HeroesModule } from "./heroes/heroes.module";
 
 
 @NgModule({
@@ -14,7 +14,8 @@ import { HeroesModule } from './heroes/heroes.module';
   imports: [
     BrowserModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    DragonBallZModule
   ],
   providers: [],
   bootstrap: [AppComponent]
